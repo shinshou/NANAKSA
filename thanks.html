@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Marketing and One</title>
+    <meta name="title" content="Marketing and One">
+    <meta name="description" content="マーケティングの全領域をワンストップ！でおまかせ">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Marketing and One">
+    <meta property="og:description" content="マーケティングの全領域をワンストップ！でおまかせ">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Marketing and One">
+    <meta property="twitter:description" content="マーケティングの全領域をワンストップ！でおまかせ">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- アイコン読み込み -->
+    <link rel="icon" href="img/icon.png">
+    <link rel="apple-touch-icon" sizes="180×180" href="img/icon.png">
+
+    <!-- グーグルフォント読み込み -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet">
+
+    <!-- bootstrap読み込み
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> -->
+
+    <!-- fontawesome読み込み -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <!-- flatpicker読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- Aos.js読み込み -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- css読み込み -->
+    <link rel="stylesheet" type="text/css" href="css/base/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+    <main>
+      <section id="thanks">
+        <div class="wrapper">
+          <div class="thanks-wrapper">
+            <div>
+              <h2 class="content-ttl">Marketing and One</h2>
+              <h3>お問い合わせありがとうございます。</h3>
+              <p>ご記入いただきました情報は<br>無事に送信されました。<br><br>お問い合わせ内容確認の上、<br>３営業日以内にご連絡させて<br>いただきます。</p>
+              <a href="index.html">トップページに戻る</a>
+            </div>
+          </div><!-- /.thanks-inner -->
+        </div><!-- /.wrapper -->
+      </section><!-- /#thanks -->
+    </main>
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="wrapper">
+      <h2 class="content-ttl">Marketing and One</h2><!-- /.content-ttl -->
+      <div class="footer-wrapper">
+        <table>
+          <tr>
+            <td>サービス名</td>
+            <td>Marketing and One </td>
+          </tr>
+          <tr>
+            <td>代表</td>
+            <td>菊池理子</td>
+          </tr>
+          <tr>
+            <td>連絡先</td>
+            <td>Freera.marketing@gmail.com</td>
+          </tr>
+        </table>
+      </div><!-- /.footer-wrapper -->
+      <p>© 2021 Marketing and One</p>
+    </div><!-- /.wrapper -->
+  </footer>
+
+    <!-- Bootstrapの読み込み -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> -->
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- ページ内スムーススクロール-->
+    <script type="text/javascript">
+      $(function(){
+          $('a[href^="#"]').click(function(){
+              var speed = 1000;
+              var href= $(this).attr("href");
+              var target = $(href == "#" || href == "" ? 'html' : href);
+              var position = target.offset().top;
+              $("html, body").animate({scrollTop:position}, speed, "swing");
+              return false;
+          });
+      });
+    </script>
+
+    <!-- <script src="scripts/file.js"></script> -->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
