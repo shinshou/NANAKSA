@@ -133,7 +133,7 @@ $mailSignature = <<< FOOTER
 ──────────────────────
 Marketing and One
 
-E-mail:freema.marketing@gmail.com
+E-mail:freera.marketing@gmail.com
 URL: 
 ──────────────────────
 
